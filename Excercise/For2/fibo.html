@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Fibonacci</title>
+</head>
+
+<body>
+    <h1>jjnjnjn</h1>
+<p id="demo"></p>
+<Script>
+   
+    let x, i, count=2,n1=0,n2=1,n3,t ="";
+    x=prompt("Enter number:")
+    document.getElementById("demo").innerHTML = n1+ "<br>" +n2 
+for(i = 2; i <1000; i++){
+ if(i >=2&&count<x){
+    n3= n1+n2;
+    t += n3+"<br>"
+ n1=n2;
+ n2=n3;
+ count++;
+}
+}
+document.write(t);
+</Script>
+</body>
+
+</html>

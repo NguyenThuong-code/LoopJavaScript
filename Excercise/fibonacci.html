@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fibonacci</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+<script>
+    let n1=0,n2=1,n3, t= "";
+    document.getElementById("demo").innerHTML = n1+ "<br>" +n2
+    for(let i =0; i <20; i++){
+        n3 = n1+n2;
+        t=n3+"<br>"
+        document.write(t)
+        n1=n2;
+        n2=n3;
+    }
+</script>
+</body>
+
+</html>

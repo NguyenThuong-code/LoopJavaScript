@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fibonacci</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+<script>
+    let  i, sum=0, count =0, t = "";
+    for(i =0; i < 1000; i++){
+        if(i%7==0&&count<30){
+        t += i+"<br>";
+    count++;
+    sum+=i
+    }
+    }
+    document.write(t);
+    document.write(sum);
+
+</script>
+</body>
+
+</html>
